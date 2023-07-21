@@ -1,0 +1,45 @@
+{
+  "name": "vscode-theme-dark-autumn",
+  "displayName": "vscode-theme-dark-autumn",
+  "description": "A Visual Studio Code Theme that reminds me of colorful but dark autumns",
+  "version": "0.2.0",
+  "author": {
+    "name": "Ralf Rastlos",
+    "url": "https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn",
+    "email": "rm@darkstar-developments.io"
+  },
+  "company": "Darkstar GmbH",
+  "license": "GPL-2",
+  "publisher": "DarkstarGmbh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn"
+  },
+  "bugs": {
+    "url": "https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/issues"
+  },
+  "icon": "./resources/dark-autumn-icon.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "autumn",
+    "colorful",
+    "vscode",
+    "visual studio code"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "dark autumn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark autumn-color-theme.json"
+      }
+    ]
+  }
+}
