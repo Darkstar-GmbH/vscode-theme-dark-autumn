@@ -8,8 +8,8 @@ A Visual Studio Code Theme that reminds me of colorful but dark autumns.
 
 # Installation
 
-Just copy the settings.json into your workspace under the `.vscode` Directory. That's it.
+Just install it via VS Code / Marketplace
 
 # Further improvements
 
-Create VSCode Extension
+I didn't configure all languages, just what I needed. Sorry for that. I can of course add to this extension. Just write me.
