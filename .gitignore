@@ -1,4 +1,6 @@
 /**/.vscode/**
-/**/target/**
+/target
+/target/**
+/node_modules
 /node_modules/**
 package-lock.json
