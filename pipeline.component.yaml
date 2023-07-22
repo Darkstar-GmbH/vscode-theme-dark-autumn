@@ -1,0 +1,13 @@
+name: package pipeline component
+implementation:
+  graph:
+    tasks: {
+      archive: {
+        component: 'ArchiveFiles@2',
+        inputs: {
+          rootFolderOrFile: './vscode-theme-dark-autumn/',
+          archiveType: 'zip',
+          archiveFile: './target/vscode-theme-dark-autumn-0.2.0.vsix'
+        }
+      }
+    }
