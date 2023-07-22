@@ -1,0 +1,17 @@
+{
+    "name": "vscode-theme-dark-autumn",
+    "version": "0.2.0",
+    "author": "Ralf Rastlos <vollsynthetik@gmail.com>",
+    "license": "GPL-2.0",
+    "scripts": {
+        "package": "cd extension && vsce package && move-file vscode-theme-dark-autumn-0.2.0.vsix ../target/vscode-theme-dark-autumn-0.2.0.vsix"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.80.0",
+        "@vscode/vsce": "^2.15.0",
+        "move-file": "^3.1.0",
+        "move-file-cli": "^1.0.0",
+        "vscode": "^1.1.37"
+    },
+    "bundleDependencies": []
+}
