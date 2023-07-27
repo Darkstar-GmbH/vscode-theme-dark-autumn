@@ -26,11 +26,15 @@ since v0.2.0:
 
 since v0.3.0
 
- * [#5 Markdown Support](https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/issues/5)
- * [#4 JSON Support](https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/issues/4)
- * [#3 SQL Support](https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/issues/3)
- * [#2 PowerShell Support](https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/issues/2)
+ * [#5 Markdown Support][support:md]
+ * [#4 JSON Support][support:json]
+ * [#3 SQL Support][support:sql]
+ * [#2 PowerShell Support][support:ps]
 
 
-[screenshot1]: extension/resources/vscode-theme-dark-autumn-1.png
-[screenshot2]: extension/resources/vscode-theme-dark-autumn-2.png
+[screenshot1]: https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/blob/main/extension/resources/vscode-theme-dark-autumn-1.png
+[screenshot2]: https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/blob/main/extension/resources/vscode-theme-dark-autumn-2.png
+[support:ps]: https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/issues/2
+[support:sql]: https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/issues/3
+[support:json]: https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/issues/4
+[support:md]: https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/issues/5
