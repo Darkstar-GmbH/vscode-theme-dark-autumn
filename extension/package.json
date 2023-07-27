@@ -2,7 +2,7 @@
   "name": "vscode-theme-dark-autumn",
   "displayName": "Dark Autumn Theme",
   "description": "A Visual Studio Code Theme that reminds me of colorful but dark autumns",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "author": {
     "name": "Ralf Rastlos",
     "url": "https://github.com/Darkstar-GmbH/",
@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/",
     "directory": "/tree/",
-    "tag": "v0.3.0"
+    "tag": "v0.3.2"
   },
   "bugs": {
     "directory": "/issues",
