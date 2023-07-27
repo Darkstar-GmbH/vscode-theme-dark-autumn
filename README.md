@@ -4,7 +4,7 @@ A Visual Studio Code Theme that reminds me of colorful but dark autumns.
 # Screenshots
 
 [![Screenshot 1 - CSharp](/extension/resources/vscode-theme-dark-autumn-1.png)](https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/tree/v0.3.1/)
-[![Screenshot 2 - XML](//extension/resources/vscode-theme-dark-autumn-2.png)](https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/tree/v0.3.1/)
+[![Screenshot 2 - XML](/extension/resources/vscode-theme-dark-autumn-2.png)](https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/tree/v0.3.1/)
 
 # Installation
 
