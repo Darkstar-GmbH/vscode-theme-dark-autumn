@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "watch",
+            "problemMatcher": "$tsc-watch",
+            "isBackground": true,
+            "presentation": {
+                "reveal": "never"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "npm",
+            "script": "package",
+            "problemMatcher": [],
+            "label": "npm: package",
+            "detail": "cd extension && vsce package && move-file vscode-theme-dark-autumn-0.3.0.vsix ../target/vscode-theme-dark-autumn-0.3.0.vsix"
+        }
+    ]
+}

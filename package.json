@@ -1,10 +1,12 @@
 {
     "name": "vscode-theme-dark-autumn",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "author": "Ralf Rastlos <vollsynthetik@gmail.com>",
     "license": "GPL-2.0",
     "scripts": {
-        "package": "cd extension && vsce package && move-file vscode-theme-dark-autumn-0.2.0.vsix ../target/vscode-theme-dark-autumn-0.2.0.vsix"
+        "package": "cd extension && vsce package && move-file vscode-theme-dark-autumn-0.3.0.vsix ../target/vscode-theme-dark-autumn-0.3.0.vsix",
+        "install": "cd target && code --extensions-dir C:\\Users\\rmuel\\.vscode\\extensions --install-extension .\\vscode-theme-dark-autumn-0.3.0.vsix",
+        "launch": "cd target && code --new-window --extensionDevelopmentPath=${workspaceFolder} ..\\..\\ps-completions"
     },
     "devDependencies": {
         "@types/vscode": "^1.80.0",

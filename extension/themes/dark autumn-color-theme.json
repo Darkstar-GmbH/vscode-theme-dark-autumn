@@ -149,7 +149,6 @@
 	},
 	"tokenColors": [
 		{
-			"name": "base",
 			"scope": [
 				"punctuation",
 				"punctuation.cs",
@@ -163,10 +162,12 @@
 				"punctuation.definition.quasi.begin",
 				"punctuation.definition.quasi.end",
 				"punctuation.terminator.statement",
-				"punctuation.terminator.statement.cs"
+				"punctuation.terminator.statement.cs",
+				"meta.paragraph.markdown",
+				"text.html.markdown",
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#c1c5c9"
 			}
 		},
 		{
@@ -182,13 +183,19 @@
 			}
 		},
 		{
-			"scope": "variable.name",
+			"scope": [
+				"variable.name"
+			],
 			"settings": {
 				"foreground": "#5d7d52"
 			}
 		},
 		{
-			"scope": "variable.other",
+			"scope": [
+				"variable.other",
+				"support.variable.automatic.powershell",
+				"punctuation.definition.variable.powershell"
+			],
 			"settings": {
 				"foreground": "#d7c931",
 				"fontStyle": "italic"
@@ -202,23 +209,37 @@
 			}
 		},
 		{
-			"scope": "variable.other.object.property.cs",
+			"scope": [
+				"variable.other.object.property.cs",
+				"support.type.property-name.json.comments",
+				"source.sql"
+			],
 			"settings": {
 				"foreground": "#d7c931",
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": "variable.parameter",
+			"scope": [
+				"variable.parameter",
+				"meta.group.array-expression.powershell",
+				"meta.group.powershell",
+			],
 			"settings": {
 				"foreground": "#a05b30",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope": "comment",
+			"scope": [
+				"comment",
+				"comment.block.powershell",
+				"comment.block.json.comments",
+				"comment.documentation.embedded.powershell",
+				"punctuation.definition.comment.sql",
+			],
 			"settings": {
-				"foreground": "#5b574d"
+				"foreground": "#7b776d"
 			}
 		},
 		{
@@ -236,7 +257,9 @@
 			}
 		},
 		{
-			"scope": "entity.name.namespace",
+			"scope": [
+				"entity.name.namespace"
+			],
 			"settings": {
 				"foreground": "#8f8552",
 				"fontStyle": "bold"
@@ -271,41 +294,69 @@
 			}
 		},
 		{
-			"scope": "entity.name.type.struct",
+			"scope": [
+				"entity.name.type.struct",
+				"string.quoted.double.json.comments"
+			],
 			"settings": {
 				"foreground": "#3197d6",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope": "entity.name.type.interface",
+			"scope": [
+				"entity.name.type.interface",
+				"storage.type.powershell",
+				"markup.heading.markdown",
+				"entity.name.section.markdown",
+				"punctuation.definition.heading.markdown"
+			],
 			"settings": {
 				"foreground": "#4596f2",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope": "entity.name.function",
+			"scope": [
+				"entity.name.function",
+				"support.function.powershell",
+				"meta.scriptblock.powershell",
+				"string.quoted.single.sql",
+				"constant.numeric.sql",
+				"string.quoted.single.sql",
+				"punctuation.definition.string.begin.sql",
+				"punctuation.definition.string.end.sql",
+				"markup.underline.link.image.markdown"
+			],
 			"settings": {
 				"foreground": "#d08719"
 			}
 		},
 		{
-			"scope": "entity.name.method",
+			"scope": [
+				"entity.name.method",
+				"string.other.link.description.markdown",
+				"punctuation.definition.link.description.begin.markdown",
+				"punctuation.definition.link.description.end.markdown"
+			],
 			"settings": {
 				"foreground": "#d0a519",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope": "entity.name.tag",
+			"scope": [
+				"entity.name.tag"
+			],
 			"settings": {
 				"foreground": "#d0a519",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope": "entity.other.attribute-name",
+			"scope": [
+				"entity.other.attribute-name"
+			],
 			"settings": {
 				"foreground": "#ea6f23",
 				"fontStyle": "bold"
@@ -324,14 +375,22 @@
 			}
 		},
 		{
-			"scope": "operator",
+			"scope": [
+				"operator"
+			],
 			"settings": {
 				"foreground": "#ffffff",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope": "keyword",
+			"scope": [
+				"keyword",
+				"keyword.operator.documentation.powershell",
+				"keyword.operator.comparison.powershell",
+				"punctuation.definition.list.begin.markdown",
+				"punctuation.definition.list.end.markdown"
+			],
 			"settings": {
 				"foreground": "#2db0d8",
 				"fontStyle": "bold"
@@ -345,16 +404,12 @@
 			}
 		},
 		{
-			"scope": "keyword.control",
+			"scope": [
+				"keyword.control",
+				"keyword.control.powershell",
+			],
 			"settings": {
 				"foreground": "#7bd0ec",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": "support.type.property-name.css",
-			"settings": {
-				"foreground": "#d0a519",
 				"fontStyle": "bold"
 			}
 		}
