@@ -5,7 +5,7 @@
   "version": "0.3.0",
   "author": {
     "name": "Ralf Rastlos",
-    "url": "https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn",
+    "url": "https://github.com/Darkstar-GmbH/",
     "email": "rm@darkstar-developments.io"
   },
   "company": "Darkstar GmbH",
@@ -14,10 +14,14 @@
   "pricing": "Free",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn"
+    "url": "https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/",
+    "directory": "/tree/",
+    "tag": "v0.3.0"
   },
   "bugs": {
-    "url": "https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/issues"
+    "directory": "/issues",
+    "contact": "Ralf Rastlos",
+    "email": "support@darkstar-developments.io"
   },
   "engines": {
     "vscode": "^1.80.0"
@@ -33,18 +37,18 @@
     "vscode",
     "visual studio code"
   ],
-  "icon": "resources/dark-autumn-icon.png",
+  "icon": "./resources/dark-autumn-icon.png",
   "contributes": {
     "themes": [
       {
         "id": "dark-autumn",
         "label": "dark autumn",
         "uiTheme": "vs-dark",
-        "theme": "themes/dark-autumn-color-theme.json",
-        "path": "themes/dark-autumn-color-theme.json",
+        "theme": "./themes/dark-autumn-color-theme.json",
+        "path": "./themes/dark-autumn-color-theme.json",
         "enabled": true,
         "description": "A Visual Studio Code Theme that reminds me of colorful but dark autumns",
-        "icon": "resources/dark-autumn-icon.png",
+        "icon": "./resources/dark-autumn-icon.png",
         "isBuiltin": false,
         "extensionData": {
           "extensionId": "darkstar-gmbh.dark-autumn",

@@ -3,8 +3,8 @@ A Visual Studio Code Theme that reminds me of colorful but dark autumns.
 
 # Screenshots
 
-![Screenshot 1 - CSharp][screenshot1]
-![Screenshot 2 - XML][screenshot2]
+![Screenshot 1 - CSharp][screenshot:1]
+![Screenshot 2 - XML][screenshot:2]
 
 # Installation
 
@@ -32,8 +32,8 @@ since v0.3.0
  * [#2 PowerShell Support][support:ps]
 
 
-[screenshot1]: https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/blob/main/extension/resources/vscode-theme-dark-autumn-1.png
-[screenshot2]: https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/blob/main/extension/resources/vscode-theme-dark-autumn-2.png
+[screenshot:1]: https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/tree/main/extension/resources/vscode-theme-dark-autumn-1.png
+[screenshot:2]: https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/tree/main/extension/resources/vscode-theme-dark-autumn-2.png
 [support:ps]: https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/issues/2
 [support:sql]: https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/issues/3
 [support:json]: https://github.com/Darkstar-GmbH/vscode-theme-dark-autumn/issues/4

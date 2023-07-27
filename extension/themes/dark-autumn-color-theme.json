@@ -1,5 +1,6 @@
 {
 	"name": "dark autumn",
+	"type": "dark",
 	"colors": {
 		/* sidebar */
 		"sideBar.foreground": "#c2c5c9",
