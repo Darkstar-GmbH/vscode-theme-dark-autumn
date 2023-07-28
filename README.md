@@ -1,5 +1,9 @@
+# Dark Autumn Visual Studio Code Theme 
+<img src="/resources/dark-autumn-icon.png" alt="Theme Icon" width="120px" />
+
 # Abstract
-A Visual Studio Code Theme that reminds me of colorful but dark autumns.
+
+A [Visual Studio Code Theme](https://marketplace.visualstudio.com/items?itemName=DarkstarGmbH.vscode-theme-dark-autumn) that reminds me of colorful but dark autumns.
 
 # Screenshots
 
@@ -8,7 +12,7 @@ A Visual Studio Code Theme that reminds me of colorful but dark autumns.
 
 # Installation
 
-Just install it via VS Code / Marketplace
+Just install it directly via Visual Studio Code or download and install it from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=DarkstarGmbH.vscode-theme-dark-autumn).
 
 # Further improvements
 
